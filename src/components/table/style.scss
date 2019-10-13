@@ -1,0 +1,16 @@
+
+
+.table {
+    border: 1px solid black;
+    max-width: 1145px;
+    margin: auto;
+    height: 358px;
+    & :global(tr.k-master-row) {
+        background-color: #cbd4cf !important;
+        &:hover {
+            background-color: #e6edea !important;
+        }
+    }
+}
+
+
